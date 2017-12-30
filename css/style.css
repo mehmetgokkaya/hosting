@@ -439,3 +439,12 @@ input[type="submit"],.error_copyright p a,.error_main_grid_right ul.errorinfo_so
 .errormain a:active {
 	text-decoration: none;
 }
+.CSS_LIGHTBOX, .CSS_LIGHTBOX .CSS_LAYOUT_COMPONENT, .CSS_LIGHTBOX .CSS_HCONT_CHILDREN_HOLDER .CSS_LIGHTBOX_SCALED_IMAGE_IMG {
+	z-index: 999;
+}
+#eng_top_ww_widget_73894668755630020 .eng_ww_ttl_span1 {
+	color: white;
+	background-color: #4184d6;
+	left: 0; 
+	right: 0;
+}
