@@ -107,3 +107,335 @@ html>body
 	color:#fff;
 	font-size:12px;
 }
+
+.error_copyright {
+	text-align: center;
+	color: bisque;
+}
+.error_copyright p {
+	font-size: 1em;
+	color:#fff;
+	margin:5.8em 0 0;
+	line-height: 1.8em;
+	padding: 0 1em;
+	text-transform: capitalize;
+}
+.error_copyright p a { color:#88db16;
+	text-decoration: none;
+}
+.error_copyright p a:hover {
+	color:#fff;
+}
+input[type="submit"],.error_copyright p a,.error_main_grid_right ul.errorinfo_social_icons li a,.error_main_grid_left ul.wthree_nav li a {
+	transition:.5s ease-in;	
+	-webkit-transition:.5s ease-in;	
+	-moz-transition:.5s ease-in;	
+	-o-transition:.5s ease-in;	
+	-ms-transition:.5s ease-in;
+}
+.errormain {
+	padding:10em 0;
+}
+.errormain h1 {
+	text-align: center;
+	color:#3cc0fe;
+	font-size: 3.5em;
+	letter-spacing: 5px;
+	margin-bottom: 1.5em;
+	text-transform: uppercase;
+}
+.error_main_grid {
+	width:65%;
+	margin:0 auto;
+}
+.error_main_grid h3 {
+	font-size: .8em;
+	color: #3cc0fe;
+	font-style: italic;
+	text-transform: capitalize;
+}
+.error_main_grid h3 span {
+	color: #3cc0fe;
+}
+.error_main_grid h2 {
+	font-size: 4em;
+	color: #3cc0fe;
+	line-height: 0.8em;
+	margin: 0.3em 0 0;
+}
+.error_main_grid p {
+	font-size:1em;
+	color:#3cc0fe;
+	line-height:2em;
+}
+.error_form {
+	width: 50%;
+	margin:2em 0 5em;
+}
+.error_form input[type="text"] {
+	outline: none;
+	padding: 15px 12px;
+	font-size: 1em;
+	color:#3cc0fe;
+	width: 70.34%;
+	background: #fff;
+	border: none;
+	float: left;
+}
+.error_form input[type="submit"] {
+	outline: none;
+	width: 25%;
+	background: #3cc0fe;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #212121;
+	font-weight: 600;
+	border: none;
+	padding: 15px 0;
+	cursor: pointer;
+}
+.error_form input[type="submit"]:hover {
+	background:#fcf0a0;
+}
+.error_form input[type="text"]::-webkit-input-placeholder {
+	color:#212121;
+}
+.error_main_grid_left {
+	margin: 0.6em 0 0;
+	float:left;
+}
+.error_main_grid_left ul.wthree_nav li {
+	display:inline-block;
+	font-size:1em;
+}
+.error_main_grid_left ul.wthree_nav li a {
+	color:#3cc0fe;
+	text-transform:uppercase;
+}
+.error_main_grid_left ul.wthree_nav li a:hover {
+	color:#3cc0fe;
+}
+.error_main_grid_left ul.wthree_nav li:nth-child(2){
+	margin:0 2em;
+}
+.error_main_grid_right {
+	float:right;
+}
+.error_main_grid_right ul.errorinfo_social_icons li {
+	display:inline-block;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 40px;
+	text-align: center;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a i {
+	line-height: 2.5em;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_facebook i{
+	color:#3b5998;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_twitter i {
+	color:#1da1f2;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_instagram i {
+	color:#833ab4;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_google i {
+	color:#dd4b39;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_facebook:hover{
+	background:#3b5998;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_twitter:hover {
+	background:#1da1f2;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_instagram:hover {
+	background:#833ab4;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a.error_google:hover {
+	background:#dd4b39;
+}
+.error_main_grid_right ul.errorinfo_social_icons li a:hover i {color:#fff;}
+@media (max-width:1440px) {
+	.error_main_grid {
+		width: 72%;
+	}
+}
+@media (max-width:1366px){
+	.error_form {
+		width: 53%;
+	}
+}
+@media (max-width: 1280px) {
+	.error_form {
+		width: 57%;
+	}
+}
+@media (max-width: 1080px) {
+	.error_main_grid h2 {
+		font-size: 4em;
+	}
+	.main h1 {
+		font-size: 3.3em;
+	}
+	.error_form {
+		width: 68%;
+	}
+}
+@media (max-width: 1024px){
+	.error_main_grid {
+		width: 80%;
+	}
+}
+@media (max-width: 800px){
+	.errormain h1 {
+		font-size: 3em;	
+	}
+	.error_form {
+		width: 83%;
+		margin: 2em 0 4em;
+	}
+	.error_form input[type="text"] {
+		width: 69.34%;
+	}
+	.error_main_grid h2 {
+		font-size: 4em;
+	}
+}
+@media (max-width: 736px){
+	.errormain {
+		padding: 8em 0;	
+	}
+	.error_form {
+		margin: 2em 0 3em;
+	}
+}
+@media (max-width: 640px){
+	.errormain h1 {
+		font-size: 2.5em;
+		letter-spacing: 3px;
+	}
+	.error_main_grid h2 {
+		font-size: 3.5em;
+	}
+	.error_main_grid_left ul.wthree_nav li {
+		font-size: 14px;
+	}
+	.error_main_grid_left ul.wthree_nav li:nth-child(2) {
+		margin: 0 1em;
+	}
+}
+@media (max-width: 600px){
+	.error_form {
+		width: 91%;
+	}
+}
+@media (max-width: 568px){
+	.error_main_grid {
+		width: 85%;
+	}
+	.error_copyright p {
+		margin: 5em 0 0;
+	}
+}
+@media (max-width: 480px){
+	.errormain h1 {
+		font-size: 2.3em;
+		margin-bottom: 1.3em;
+	}
+	.error_main_grid h2 {
+		font-size: 3em;
+	}
+	.error_form {
+		width: 100%;
+	}
+	.error_form input[type="text"] {
+		width: 68.34%;
+	}
+	.error_main_grid_left {
+		margin: 0 0 1em;
+		float: none;
+	}
+	.error_main_grid_right {
+		float: none;
+	}
+	.error_form {
+		margin: 2em 0;
+	}
+}
+@media (max-width: 414px) {
+	.errormain h1 {
+		font-size: 2em;
+	}
+	.error_main_grid h2 {
+		font-size: 2.5em;
+	}
+	.error_main_grid p {
+		font-size: 14px;
+	}
+	.error_form {
+		margin: 2em 0;
+	}
+	.error_form input[type="text"] {
+		padding: 10px;
+	}
+	.error_form input[type="submit"] {
+		font-size: 14px;
+		padding: 11px 0;
+	}
+	.errormain h1 {
+		margin-bottom: 1.5em;
+	}
+	.error_main_grid {
+		width: 86%;
+	}
+}
+@media (max-width: 384px){
+	.errormain {
+		padding: 2em 0;	
+	}
+	.error_copyright p {
+		margin: 4em 0 0;
+	}
+}
+@media (max-width: 320px){
+	.errormain h1 {
+		font-size: 1.8em;
+		letter-spacing: 2px;
+	}
+	.error_main_grid {
+		width: 88%;
+	}
+	.error_main_grid h2 {
+		font-size: 2em;	
+	}
+	.error_main_grid p,.error_main_grid_left ul.wthree_nav li {
+		font-size: 13px;
+	}
+	.error_form input[type="text"] {
+		width: 67.34%;
+	}
+	.error_form {
+		margin: 1.5em 0;
+	}
+	.error_copyright p {
+		margin: 3em 0 0;
+		font-size: 13px;
+	}
+}
+.errormain a:link {
+	text-decoration: none;
+}
+.errormain a:visited {
+	text-decoration: none;
+}
+.errormain a:hover {
+	text-decoration: none;
+} 
+.errormain a:active {
+	text-decoration: none;
+}
