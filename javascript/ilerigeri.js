@@ -1,3 +1,4 @@
+//<![CDATA[
 window.onload = function()
     {
     document.onkeyup = function(event)
@@ -16,3 +17,4 @@ window.onload = function()
     }
     };
     };
+//]]>
