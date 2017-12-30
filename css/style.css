@@ -1,1 +1,17 @@
-style dosyalarý için
+#headerSlideContainer {
+  position: fixed;
+  top:-260px;
+  width: 100%;
+  background: transparent;
+  z-index:10;
+}
+#headerSlideContent {
+  max-width:1100px;
+  height:10px;
+  margin:0 auto;
+  color: white;
+  z-index:998;
+}
+#fw-feed-items .fw-feed-item-title {
+  font-family:"Kaushan Script",cursive;
+}
