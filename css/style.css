@@ -15,16 +15,19 @@
 #fw-feed-items .fw-feed-item-title {
   font-family:"Kaushan Script",cursive;
 }
-#scrollable a{
+#scrollable a {
   text-decoration: none;
-  color: #111b47;}
+  color: #111b47;
+}
 #scrollable a:hover
 {border-bottom: 5px solid orange;
 border-top: 5px solid orange;
-color: #ED971F;}
-#scrollable, ul1{
+color: #ED971F;
+}
+#scrollable, ul1 {
   height: 200px;
-  position: relative;}
+  position: relative;
+}
 #scrollable{
   margin: auto;
   padding: 10px;
@@ -36,8 +39,24 @@ color: #ED971F;}
   position: absolute;
   width: auto;
 }
-#scrollable li1 img{ 
-  height:200px;}
+#scrollable li1 img { 
+  height:200px;
+}
+#scrollable ul1 {
+  -webkit-animation: moveSlideshow 150s linear infinite }
+@keyframes moveSlideshow {
+  50% { 
+    transform: translateX(-460%);  
+  }
+	100% { 
+    transform: translateX(0%);  
+  }
+}
+#scrollable ul1:hover {
+  -moz-animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
 #contextMenuContainer {
 	display:none;position:
 		fixed;border:8px solid white;
@@ -88,16 +107,3 @@ html>body
 	color:#fff;
 	font-size:12px;
 }
-#scrollable ul1{
-  -webkit-animation: moveSlideshow 150s linear infinite}
-@keyframes moveSlideshow {
-  50% { 
-    transform: translateX(-460%);  
-  }
-	100% { 
-    transform: translateX(0%);  
-  }
-}
-#scrollable ul1:hover{
-  -moz-animation-play-state: paused;
-  -webkit-animation-play-state: paused;}
