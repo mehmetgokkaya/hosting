@@ -427,16 +427,16 @@ input[type="submit"],.error_copyright p a,.error_main_grid_right ul.errorinfo_so
 		font-size: 13px;
 	}
 }
-.errormain a:link {
+a:link {
 	text-decoration: none;
 }
-.errormain a:visited {
+a:visited {
 	text-decoration: none;
 }
-.errormain a:hover {
+a:hover {
 	text-decoration: none;
 } 
-.errormain a:active {
+a:active {
 	text-decoration: none;
 }
 .CSS_LIGHTBOX, .CSS_LIGHTBOX .CSS_LAYOUT_COMPONENT, .CSS_LIGHTBOX .CSS_HCONT_CHILDREN_HOLDER .CSS_LIGHTBOX_SCALED_IMAGE_IMG {
