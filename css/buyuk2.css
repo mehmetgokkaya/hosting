@@ -232,7 +232,7 @@ h3 a:hover{text-decoration:none}
 .widget-item-control a{opacity:.5}
 .widget-item-control a:hover{opacity:1}
 .widget .widget-item-control a img{border:none;padding:none;background:none;-moz-box-shadow:none;-webkit-box-shadow:none;-ie-box-shadow:none;box-shadow:none}
-.post-body{width:100%;_overflow:hidden}
+.post-body{width:100%;overflow:hidden}
 .post-header,.post-footer{line-height:1.6}
 .post-footer-line>*{margin-right:1em}
 .post-footer-line>*:last-child{margin-right:0}
