@@ -48,7 +48,7 @@ table.section-columns td.columns-cell{vertical-align:top}
 table.tr-caption-container{padding:4px;margin-bottom:.5em}
 td.tr-caption{font-size:80%}
 .widget ul {padding:0;}
-body {-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font-family:&#39;Droid Sans&#39;; font-size:13px; font-weight:400; text-align:left;color:#000;padding:0 0 0 0;}
+body {-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;font-family:"Droid Sans"; font-size:13px; font-weight:400; text-align:left;color:#000;padding:0 0 0 0;}
 body#layout #outer-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebar2 {padding:0 0 0 0;}
 body#layout .top-tab-widget-menu ul {display:none;}
 body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0 0 0 0;}
