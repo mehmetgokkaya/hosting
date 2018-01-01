@@ -60,7 +60,6 @@ body#layout #header-wrapper {min-height:0px;width:100%;}
 body#layout #header {width:30%;}
 body#layout #header-right {width:70%;}
 .ct-wrapper {margin:0;padding:0;}
-.clear {clear:both;}
 .clear:after {visibility:hidden;display:block;font-size:0;content:"";clear:both;height:0;}
 #navbar-iframe {display:none!important;}
 header,nav,section,aside,article,footer {display:block;}
@@ -68,7 +67,6 @@ form.searchform {margin:0;}
 body#layout #tably-1, body#layout #tably-2, body#layout #tably-3 {width:33.3%;float:left;}
 #outer-wrapper {max-width:1100px;margin:0 auto;padding:0;overflow:hidden;}
 #post-wrapper {float:left;width:70%;margin:0 0 10px;}
-.post-inner {padding:15px 15px 0 0;}
 .blogouter-wrapper {overflow:hidden;position:relative;}
 .ct-wrapper {padding:0 20px;position:relative;max-width:1024px;margin:0 auto;}
 #header-wrapper{margin:20px;overflow:hidden;}
