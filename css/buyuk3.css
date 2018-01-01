@@ -74,11 +74,8 @@ body#layout #tably-1, body#layout #tably-2, body#layout #tably-3 {width:33.3%;fl
 .header-right {float:none;padding:0;overflow:hidden;margin:0;width:100%;max-width:580px;}
 .header-wrapper2 {position:relative;z-index:999;}
 #footer-wrapper {background-color: #111;width:100%;text-align:left;overflow:hidden;margin:20px 0px 0px 0px}
-#footer-widgetfix .footer-widget {width:30.6%;float:left;margin-left:20px;}
-#footer-widgetfix {max-width:1100px;overflow:hidden;margin:0 auto;}
 #footer-wrapper .widget-content {text-align:left;margin:20px 0 15px;}
 #footer-wrapper .widget-content li {margin-left:-14px;}
 #footer-wrapper .widget li {margin:5px 0 0 0;padding:5px 0 0 15px;display:block;}
-.footer-bottom {min-height:40px;}
 #footx1,#footx2,#footx3 {margin:0 .2%}
 .footer {padding-bottom:.2em;}
