@@ -9,3 +9,4 @@
 .button:hover:before {-webkit-animation: leftswitch 300ms;animation: leftswitch 300ms; -webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
 .button:hover:after {-webkit-animation: rightswitch 300ms;animation: rightswitch 300ms;-webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
 .button:active {-webkit-transition: all 200ms ease;transition: all 200ms ease;-webkit-transform: rotateZ(5deg) scaleX(1.1) scaleY(1.1);}
+.button{width:96%;}
