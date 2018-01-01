@@ -1,0 +1,11 @@
+.button, .button:before, .button:after {-webkit-transition: all 600ms ease;transition: all 600ms ease;}
+.button{display: inline-block;text-decoration: none;background-color: #69D2E7;color: #FFF;width: 100px;line-height: 50px; height: 50px; text-align:center;position: relative;}
+.button a:link:hover{color:#ECE21D;}
+.button:before, .button:after {content: "";position: absolute;display: block; background-color: #A7DBD8;height: 100%; width: 10%;}
+.button:before{top: 0;left: 0;}
+.button:after {bottom: 0; right: 0;}
+.button:hover {background-color: #FA6900}
+.button:hover:before,.button:hover:after {background-color: #F38630;}
+.button:hover:before {-webkit-animation: leftswitch 300ms;animation: leftswitch 300ms; -webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+.button:hover:after {-webkit-animation: rightswitch 300ms;animation: rightswitch 300ms;-webkit-animation-fill-mode: forwards;animation-fill-mode: forwards;-webkit-animation-timing-function: linear;animation-timing-function: linear;}
+.button:active {-webkit-transition: all 200ms ease;transition: all 200ms ease;-webkit-transform: rotateZ(5deg) scaleX(1.1) scaleY(1.1);}
