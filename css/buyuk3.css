@@ -73,7 +73,6 @@ body#layout #tably-1, body#layout #tably-2, body#layout #tably-3 {width:33.3%;fl
 #header{float:left;width:100%;max-width:257px;}
 .header-right {float:none;padding:0;overflow:hidden;margin:0;width:100%;max-width:580px;}
 .header-wrapper2 {position:relative;z-index:999;}
-.sidebar-inner {padding:15px 0;}
 #footer-wrapper {background-color: #111;width:100%;text-align:left;overflow:hidden;margin:20px 0px 0px 0px}
 #footer-widgetfix .footer-widget {width:30.6%;float:left;margin-left:20px;}
 #footer-widgetfix {max-width:1100px;overflow:hidden;margin:0 auto;}
