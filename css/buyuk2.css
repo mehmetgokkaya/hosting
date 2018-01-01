@@ -31,7 +31,7 @@ time,mark{display:inline}
 @media all{.BLOG_mobile_video_class{display:none}}
 @media handheld{.BLOG_mobile_video_class{display:inline}.BLOG_video_class{display:none}}
 .post-share-buttons{display:inline-block;margin-top:.5em;vertical-align:middle}
-.share-button{width:20px;height:20px;background:url("https://blog.xn--mehmetgkkaya-bjb.com/img/share_buttons_20_3.png") no-repeat left !important;overflow:hidden;margin-left:-1px;position:relative}
+.share-button{width:20px;height:20px;background:url("https://h.xn--mehmetgkkaya-bjb.com/img/share_buttons_20_2_2.png") no-repeat left !important;overflow:hidden;margin-left:-1px;position:relative}
 .dummy-container{vertical-align:top;padding-left:.3em}
 a:hover.share-button{text-decoration:none;z-index:1}
 .share-button-link-text{display:block;text-indent:-9999px}
@@ -77,7 +77,7 @@ a:active.sb-pinterest{background-position:-100px -40px !important}
 .mobile-share-panel-inner{background:#fff;border-bottom-left-radius:2px 2px;border-bottom-right-radius:2px 2px;border-radius:3px;-webkit-border-radius:3px;font-family:Arial;font-size:18px;color:#000}
 .mobile .mobile-share-panel-inner a{display:block;color:#000}
 .mobile-share-panel-title{background:#f5f5f5;border-bottom:1px solid #eee;border-top-left-radius:2px 2px;border-top-right-radius:2px 2px;height:25px;line-height:25px;padding:10px 10px 10px 20px}
-.mobile a.mobile-share-panel-button{background:#fff url("https://blog.xn--mehmetgkkaya-bjb.com/img/mobile_share_icons4.png") no-repeat left !important;border-bottom:1px solid #eee;height:50px;line-height:30px;padding:10px 0 10px 65px;width:100%;-webkit-box-sizing:border-box}
+.mobile a.mobile-share-panel-button{background:#fff url("https://h.xn--mehmetgkkaya-bjb.com/img/mobile_share_icons4_2.png") no-repeat left !important;border-bottom:1px solid #eee;height:50px;line-height:30px;padding:10px 0 10px 65px;width:100%;-webkit-box-sizing:border-box}
 .mobile-share-panel-button-close{font-size:26px;float:right;height:25px;line-height:25px;text-align:center;width:25px}
 .mobile a.mobile-share-panel-button-email{background-position:10px 0 !important}
 .mobile a.mobile-share-panel-button-facebook{background-position:10px -50px !important}
