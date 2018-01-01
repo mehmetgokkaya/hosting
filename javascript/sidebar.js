@@ -19,4 +19,17 @@ var countdownfunction = setInterval(function() {
         document.getElementById("gerisayim").innerHTML = "Mutlu Yıllar";
     }
 }, 1000);
+
+$(document).ready(function() {
+  $("#bookmarkme").click(function() {
+    if (window.sidebar) {
+      window.sidebar.addPanel(location.href,document.title,"");
+    } else if(window.external) {
+      window.external.AddFavorite(location.href,document.title); }
+    else if(window.opera && window.print) {
+      this.title=document.title;
+      return true;
+    }
+  });
+});
 //]]>
