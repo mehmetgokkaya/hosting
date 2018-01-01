@@ -62,7 +62,7 @@ body#layout .add_widget {border:1px solid #ddd;}
 #menu {background:#222;color:#fff;height:55px;}
 #menu:before,#menu:after {content:"";display:table;}
 #menu:after {clear:both;}
-#menu li {float:left;display:inline;position:relative;font-family:"Kaushan Script";,cursive;font-size:14px;font-weight:700;text-transform:uppercase;margin:0;}
+#menu li {float:left;display:inline;position:relative;font-family:"Kaushan Script",cursive;font-size:14px;font-weight:700;text-transform:uppercase;margin:0;}
 #menu a {line-height:55px;padding:5px 20px;text-decoration:none;color:#fff; transition:all 0.2s ease-out;}
 #menu a:hover { text-decoration: none; background-color: #4791d2;}
 #menu ul {margin:20px 0 0 0;visibility:hidden;opacity:0;height:auto;min-width:150px;background:#fff;position:absolute;z-index:99;top:55px;left:0;box-shadow:0 4px 5px -2px rgba(0,0,0,.2);transition:all 0.2s ease-out;}
@@ -137,9 +137,9 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .box-title h2{padding:10px 20px 5px 10px;background-color:#4791d2;display:inline-block}
 .box-title h2 a{color:#fff;font-weight:700;font-size:16px;text-transform:uppercase;display:block}
 .box-title h2 a:before{content:"\f09e";font-family:fontawesome;font-size:16px;vertical-align:middle;font-weight:400;margin-right:10px}
-.recent-date:before{content:"\f073";font-family:fontawesome;color:#bbb visibility: hidden;}
+.recent-date:before{content:"\f073";font-family:fontawesome;color:#bbbbbb visibility: hidden;}
 .recent-date{color:#999;font-weight:400;font-size:12px}
-.recent-author:before{content:"\f007";font-family:fontawesome;color:#bbb}
+.recent-author:before{content:"\f007";font-family:fontawesome;color:#bbbbbb}
 .recent-author{color:#999;font-weight:400;font-size:12px}
 .first-ld{position:absolute;height:100%;top:50%;left:50%;font-size:20px;color:#aaa;}
 .firstwd{position:relative;}
