@@ -1,6 +1,6 @@
 .post{background:#fff;color:#888;margin:0 0 20px 0;padding:0 10px 0 0;border:1px solid #f0f0f0;transition:all 0.3s linear;}
 .post:hover {transition:.3s linear;}
-.post-body {color:#000;margin-right:10px;font-size:12px;text-overflow:ellipsis;}
+.post-body {color:#000;text-overflow:ellipsis;}
 h2.post-title, h1.post-title {font-family:"Kaushan Script",cursive;font-size:20px;font-weight:700;padding:15px 0;text-transform:none;padding-bottom:0;text-align:left;border-bottom:none;border-top:none;}
 h2.post-title:hover, h1.post-title:hover {color:#4791d2;}
 h2.post-title a,h1.post-title a, h2.post-title, h1.post-title {color:#000;z-index:0;}
