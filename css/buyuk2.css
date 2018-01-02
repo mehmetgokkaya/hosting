@@ -161,8 +161,8 @@ h3 a:hover{text-decoration:none}
 .widget ul{padding:0 0 0 1.25em;margin:0;line-height:1.2}
 .BlogList ul{padding:0}.BlogList li .blog-content{position:relative}
 .widget li,.BlogArchive #ArchiveList ul.flat li{padding:.25em 0;margin:0;text-indent:0}
-.widget .post-body ul{padding:0 2.5em;margin:.5em 0;line-height:1.4}
-.widget .post-body li{margin-bottom:.25em;padding-top:0;padding-bottom:0}
+.widget ul{padding:0 2.5em;margin:.5em 0;line-height:1.4}
+.widget li{margin-bottom:.25em;padding-top:0;padding-bottom:0}
 .item-control{display:none}
 .item-control a,.item-action a{text-decoration:none !important}
 .widget-item-control{float:right;height:20px;margin-top:-20px;position:relative;z-index:10}
