@@ -30,9 +30,10 @@ color: #ED971F;
 }
 #scrollable{
   margin: auto;
-  padding: 10px;
+  padding: 3px;
   white-space: nowrap;
   overflow: hidden;
+  border-bottom: solid 2px #ffa812;
  }
 #scrollable ul1{
   list-style: none;
