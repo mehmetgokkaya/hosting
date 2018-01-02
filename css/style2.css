@@ -107,7 +107,8 @@ color:#fff;
 }
 .sharepost li{
 float:left;
-margin-right:0.2%
+margin-right:0.2%;
+  font-size:13px;
 }
 .sharepost li:last-child {
 margin-right:0
