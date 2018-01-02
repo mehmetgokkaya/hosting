@@ -34,6 +34,8 @@ color: #ED971F;
   white-space: nowrap;
   overflow: hidden;
   border-bottom: solid 2px #ffa812;
+  border-left: solid 2px #ffa812;
+  border-right: solid 2px #ffa812;
  }
 #scrollable ul1{
   list-style: none;
