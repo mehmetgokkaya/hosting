@@ -227,6 +227,8 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .button li{display:inline;margin:5px;padding:0;list-style:none;}
 .widget .post-body ul,.widget .post-body ol{line-height:1.5;font-weight:400}
 .widget .post-body li{padding:0;line-height:1.5}
+.widget .post-body ul{padding:0 2.5em;margin:.5em 0;line-height:1.4}
+.widget .post-body li{margin-bottom:.25em;padding-top:0;padding-bottom:0}
 .fa-check-circle:before{content:"\f058"}
 .fa-info-circle:before{content"\f05a"}
 .fa-exclamation-triangle:before{content:"\f071";}
