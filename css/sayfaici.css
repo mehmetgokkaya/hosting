@@ -9,7 +9,7 @@ h2.post-title a:hover, h1.post-title a:hover {color:#4791d2!important;}
 .post-info a {display:inline;background:transparent;color:#aaa;padding:5px;padding-left:0;margin-bottom:10px;transition:all .3s ease-out;}
 .post-info a:hover {background:transparent;color:#4791d2;}
 .author-info, .review-info, .time-info {margin-right:8px;display:inline;}
-.img-thumbnail {overflow:hidden;background-image: url("https://h.xn--mehmetgkkaya-bjb.com/img/noimage.jpg");position:relative;float:left;width:250px;height:auto;margin:15px;z-index:1;padding:0;transition: all .7s cubic-bezier(1,0,0,1);}
+.img-thumbnail {overflow:hidden;background-color: lightblue;position:relative;float:left;width:250px;height:auto;margin:15px;z-index:1;padding:0;transition: all .7s cubic-bezier(1,0,0,1);}
 .post .label-info {top:15px;left:15px;margin:0 auto;width:auto;z-index:1;}
 .label-info a{background:rgba(34,34,34,0.5);color:#fff;font-size:13px;display:block;float:left;padding:4px 12px;margin:0;transition: all .3s ease-out; position: absolute; z-index: 9;}
 .label-info a:hover{background:#222;color:#fff;}
