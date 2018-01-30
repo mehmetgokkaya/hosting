@@ -290,7 +290,7 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .PopularPosts ul li:first-child {border-top:none;}
 .PopularPosts ul li:last-child {border-bottom:none;}
 .PopularPosts ul li a:hover {color:#4791d2!important;}
-.PopularPosts ul li .item-title a, .PopularPosts ul li a {color:#000;text-decoration:none;font-family: 'Pacifico', cursive;font-size:17px;font-weight:700;transition:all 0.3s ease-out;}
+.PopularPosts ul li .item-title a, .PopularPosts ul li a {color:#000;text-decoration:none;font-family: 'Pacifico', cursive;font-size:17px;transition:all 0.3s ease-out;}
 .PopularPosts ul li .item-title a:hover, .PopularPosts ul li a:hover {color:#4791d2;}
 .PopularPosts ul li:before {display:none;list-style:none;}
 .PopularPosts .item-thumbnail {margin:0 0 0 0;}
