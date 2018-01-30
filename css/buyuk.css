@@ -112,7 +112,7 @@ h3.post-title a:hover, h2.post-title a:hover, h1.post-title a:hover {color:#4791
 .sonrakiveonceki{padding:0;background:#4791d2;border:double #fff;}
 .current-pageleft{padding:0 0 0 15px;}
 .current-pageright{padding:0 15px 0 0;}
-.pager-title-left{font-family: ""Pacifico",cursive",sans-serif;font-size:15px;font-weight:400;text-transform:uppercase;transition:all .3s ease-out}
+.pager-title-left{font-family: "Pacifico",cursive",sans-serif;font-size:15px;font-weight:400;text-transform:uppercase;transition:all .3s ease-out}
 #blog-pager-newer-link{float:left;padding:0 0 0 15px;}
 #blog-pager-older-link{float:right;padding:0 15px 0 0;}
 .blog-pager,#blog-pager{clear:both;text-align:center}
@@ -120,13 +120,13 @@ h3.post-title a:hover, h2.post-title a:hover, h1.post-title a:hover {color:#4791
 span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .post-header, .post-footer {line-height:initial;width:0;height:0;}
 .posts-title{margin-bottom:15px;border-bottom:2px solid #ffa812;background:#f9f9f9;}
-.posts-title h2{font-family:""Pacifico",cursive";font-size:15px;background-color:#ffa812;display:inline-block;padding:12px 16px;margin:0;}
+.posts-title h2{font-family:"Pacifico",cursive;;font-size:15px;background-color:#ffa812;display:inline-block;padding:12px 16px;margin:0;}
 .posts-title h2 a{color:#fff;font-weight:700;font-size:16px;text-transform:uppercase;display:block}
 .posts-title h2 a:before{content:"\f09e";font-family:fontawesome;font-size:16px;vertical-align:middle;font-weight:400;margin-right:10px}
 .posts-title h2 a:hover{color:#fff;}
 .widget-item-control{display:none!important}
 .firstwd .widget-content,.recent-wid .widget-content,.recent-wid h2.title,.widtic .widget-content{display:none}
-.recent-wid .box-title h2.title{font-family:""Pacifico",cursive";font-size:15px;background-color:#ffa812!important;display:inline-block;padding:12px 16px;margin:0;}
+.recent-wid .box-title h2.title{font-family:"Pacifico",cursive;;font-size:15px;background-color:#ffa812!important;display:inline-block;padding:12px 16px;margin:0;}
 .more-link{float:right;margin-right:10px;margin-top:12px;height:22px;line-height:22px;padding:0 10px;background-color:#00c0ef;font-size:13px;color:#fff!important;transition:background-color .3s ease-out;}
 .more-link:hover{background-color:#00acd6;}
 .more-link:after{content:"\f054";margin-left:5px;font-family:fontawesome;font-size:12px;vertical-align:middle}
@@ -301,7 +301,7 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .PopularPosts .item-title {padding-bottom:.2em;padding:0 5px;}
 #footer-widgetfix .footer-widget {width:30.6%;float:left;margin-left:20px;padding-top:10px;padding-bottom:15px;}
 #footer-widgetfix {max-width:1100px;overflow:hidden;margin:0 auto;}
-#footer-wrapper h2 {font-family:""Pacifico",cursive";font-size:15px;font-weight:700;color:#dce1e2;padding:5px 10px;display:block;text-transform:uppercase;border-bottom:2px solid #000;}
+#footer-wrapper h2 {font-family:"Pacifico",cursive;;font-size:15px;font-weight:700;color:#dce1e2;padding:5px 10px;display:block;text-transform:uppercase;border-bottom:2px solid #000;}
 #footer-wrapper h2:before {font-family:fontawesome;content: "\f036";margin-right:10px;font-size:15px;color:#4791d2;}
 #footer-wrapper h2:after {content:"";position:absolute;right:0;width:25%;height:2px;background:#4791d2;bottom:-2px;}
 #footer-wrapper .widget-content {text-align:left;font-family:"Pacifico",cursive;margin:20px 0 15px;color:#888}
