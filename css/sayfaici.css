@@ -9,7 +9,7 @@ h2.post-title a:hover, h1.post-title a:hover {color:#4791d2!important;}
 .post-info a {display:inline;background:transparent;color:#aaa;padding:5px;padding-left:0;margin-bottom:10px;transition:all .3s ease-out;}
 .post-info a:hover {background:transparent;color:#4791d2;}
 .author-info, .review-info, .time-info {margin-right:8px;display:inline;}
-.img-thumbnail {overflow:hidden;background-color: lightblue;position:relative;float:left;width:250px;height:170px;margin:15px;z-index:1;padding:0;transition:all .7s cubic-bezier(.6,-0.28,.74,.05);}
+.img-thumbnail {overflow:hidden;background-image: url("https://h.xn--mehmetgkkaya-bjb.com/img/noimage.jpg");position:relative;float:left;width:250px;height:auto;margin:15px;z-index:1;padding:0;transition:all .7s cubic-bezier(.6,-0.28,.74,.05);}
 .post .label-info {top:15px;left:15px;margin:0 auto;width:auto;z-index:1;}
 .label-info a{background:rgba(34,34,34,0.5);color:#fff;font-size:13px;display:block;float:left;padding:4px 12px;margin:0;transition: all .3s ease-out; position: absolute; z-index: 9;}
 .label-info a:hover{background:#222;color:#fff;}
@@ -22,8 +22,8 @@ h2.post-title a:hover, h1.post-title a:hover {color:#4791d2!important;}
 	h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:18px;}
 	.post-body {margin-bottom:10px;}
 	a.read-more,.readm,.label-info {display:none;}
-	.img-thumbnail {width:120px;height:100px;}
-	.img-thumbnail img {width:120px;height:100px;}
+	.img-thumbnail {width:120px;height:auto;}
+	.img-thumbnail img {width:120px;height:auto;}
 	.img-thumbnail:before{display:none;}
 	}
 .img-thumbnail:hover{-webkit-transform:scale(1.25); /* Safari and Chrome */ -moz-transform:scale(1.25); /* Firefox */  -ms-transform:scale(1.25);-o-transform:scale(1.25);transform:scale(1.25);}
@@ -31,8 +31,8 @@ h2.post-title a:hover, h1.post-title a:hover {color:#4791d2!important;}
 	#yazi {visibility: hidden;} 
 	.yazi {visibility: hidden;}
 	h2.post-title, h1.post-title, h2.post-title a, h1.post-title a, h2.post-title, h1.post-title {font-size:16px;}
-	.img-thumbnail {width:80px;height:60px;}
-	.img-thumbnail img {width:80px;height:60px;}
+	.img-thumbnail {width:80px;height:auto;}
+	.img-thumbnail img {width:80px;height:auto;}
 	.img-thumbnail:before,.post-body,.post-share,{display:none!important;visibility:hidden;width:0;height:0;}
 	.post {padding:0 0 25px 0;}
 	}
