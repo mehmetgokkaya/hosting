@@ -213,7 +213,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Sitedeki ' + postTitle.length + ' Yazılar<br/></span>'; }
+      var tocNote = '<span class="toc-note">Sitedeki ' + postTitle.length + ' Yazı Gösteriliyor<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Sitedeki ' + numDisplayed + ' Yazının tamamı gösteriliyor \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' Yazı toplamı<br/></span>';
