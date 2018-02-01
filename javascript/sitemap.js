@@ -164,9 +164,9 @@ function displayToc(filter) {
    var tocTable = '';
    var tocHead1 = 'Yazı Başlığı';
    var tocTool1 = 'Başlığa Göre Sırala';
-   var tocHead2 = 'YAZILMA TARİHİ';
+   var tocHead2 = 'Yazılma Tarihi';
    var tocTool2 = 'Tarihe Göre Sırala';
-   var tocHead3 = 'Etiket';
+   var tocHead3 = 'Kategori';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
