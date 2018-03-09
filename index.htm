@@ -1,8 +1,58 @@
-<html>
-<head>
-<meta content='1;URL=http://blog.xn--mehmetgkkaya-bjb.com' http-equiv='refresh'/>
-</head>
-<body>
-  <center style="padding-top:10%;font-size: 34px;"><br>Yönlendiriyor<br></center>
-</body>
-<html>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='indie.xml' b:templateVersion='1.1.1' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+  <head>
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <title><data:view.title.escaped/></title>
+    <b:include data='blog' name='all-head-content'/>
+
+    <b:skin version='1.1.0'><![CDATA[/*! 
+]]></b:skin>
+<style>
+#rudr_instafeed{
+  list-style:none  
+}
+#rudr_instafeed li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:10px
+}
+#rudr_instafeed li img{
+  max-width:100%;
+  max-height:100%;
+}</style>
+  </head>
+
+  <body>
+<ul id='rudr_instafeed'/>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'/>
+<script>
+var token = &#39;25d20ffbb3d448c49b03f05f24816658&#39;,
+    num_photos = 10;
+ 
+$.ajax({
+	url: &#39;https://api.instagram.com/v1/users/self/media/recent&#39;,
+	dataType: &#39;jsonp&#39;,
+	type: &#39;GET&#39;,
+	data: {access_token: token, count: num_photos},
+	success: function(data){
+ 		console.log(data);
+		for( x in data.data ){if (window.CP.shouldStopExecution(1)){break;}
+			$(&#39;ul&#39;).append(&#39;<li><img src='&apos;+data.data[x].images.low_resolution.url+&apos;'/></li>&#39;);
+		}
+window.CP.exitedLoop(1);
+
+	},
+	error: function(data){
+		console.log(data);
+	}
+});
+//# sourceURL=pen.js
+</script>
+
+    <center style='padding-top: 100px;'><br><h1>Bu Alan Adı Satlıktır <br><a href='https://iletisim.mehmetgökkaya.com'> İletişim için Tıklayınız</a></br></h1></br></center>
+<b:section id='A'/>
+<a href='https://tr.123rf.com/#yanardag87' target='_blank'><img align='middle' alt='Stock Photos from 123RF' border='0' height='30' src='https://tr.123rf.com/submit/staticbanners/123rf_110x30.jpg' width='110'/></a> Üyesidir
+  </body>
+</html>
