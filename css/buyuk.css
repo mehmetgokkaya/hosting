@@ -146,7 +146,7 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .firstwd li .arl-tmb{-webkit-filter:grayscale(0);transition:all .3s ease-out}
 .firstwd li:hover .arl-tmb{-webkit-filter:grayscale(100); -webkit-transform:scale(1.25); /* Safari and Chrome */ -moz-transform:scale(1.25); /* Firefox */ -ms-transform:scale(1.25); /* IE 9 */ -o-transform:scale(1.25); /* Opera */  transform:scale(1.25);}
 .firstwd .rcp-title{font-family: 'Pacifico', cursive;font-size:15px;font-weight:400;}
-.firstwd .arl-tmb:after{content:no-close-quote;position:absolute;bottom:0;left:0;width:100%;height:150px;background:url(http://bennettfeely.com/gradients/img/gradient_24.png) repeat-x;opacity:.5;transition:all .3s ease-out;}
+.firstwd .arl-tmb:after{content:no-close-quote;position:absolute;bottom:0;left:0;width:100%;height:150px;background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); opacity:.5;transition:all .3s ease-out;}
 .firstwd .arl-tmb:hover:after{opacity:.7;}
 .firstwd li{float:right;width:40%;height:215px;position:relative;padding:0;overflow:hidden}
 .firstwd li:nth-child(2){margin-bottom:20px}
