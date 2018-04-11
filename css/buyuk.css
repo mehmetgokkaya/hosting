@@ -153,8 +153,8 @@ span.post-author.vcard {visibility:hidden;width:0;height:0;}
 .firstwd li:first-child{width:58.3%;height:450px;float:left}
 .firstwd li:first-child .arl-tmb{height:450px}
 .firstwd li:first-child .rcp-title{font-size:25px}
-.firstwd .post-panel{position:absolute;bottom:20px;left:20px}
-.firstwd .rcp-title a{color:#fff;font-weight:700;position:relative;bottom:10px;line-height:14px}
+.firstwd .post-panel{position:absolute;bottom:0;left:20px}
+.firstwd .rcp-title a{color:#fff;font-weight:700;position:relative;bottom:0;line-height:14px}
 .firstwd .recent-date,.firstwd .recent-date:before,.firstwd .recent-author,.firstwd .recent-author:before{color:#bbb; visibility: hidden;}
 .firstwd .post-tag{position:absolute;top:0;right:0;background-color:#4791d2;color:#fff;padding:10px;text-transform:uppercase;font-weight:700;z-index:2;border-radius:25px;}
 .firstwd .post-tag:hover{color:#fff;}
