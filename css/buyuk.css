@@ -495,7 +495,7 @@ a.profile-name-link.g-profile,a.profile-link {color:#ccc;}
 @media only screen and (max-width:480px){
 		#menu a {display:grid;}
 		#bilgi {display:none}
-		#outer-wrapper {margin:0 auto;}
+		#outer-wrapper {margin:0 auto; max-width: 360px;}		
 		.header-right{float:none;margin:0 auto;text-align:center;}
 		.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
 		.post {margin:0 0 8px;padding:8px;}
@@ -516,6 +516,7 @@ a.profile-name-link.g-profile,a.profile-link {color:#ccc;}
 		}
 @media screen and (max-width:320px){
 		#menu a {display:grid;}
+		#outer-wrapper {margin:0 auto; max-width: 320px;}
 		#bilgi {display:none}
 		.header-right{float:none;margin:0 auto;text-align:center;}
 		.header-right img, .header-right iframe{float:none;margin:0 auto;text-align:center;}
