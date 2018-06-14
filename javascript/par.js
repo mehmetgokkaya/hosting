@@ -20,8 +20,8 @@ function backgroundResize(){
         var path = $(this);
         var contW = path.width();
         var contH = path.height();
-        var imgW = path.attr("data-img-height");
-        var imgH = path.attr("data-img-width");
+        var imgW = path.attr("data-img-width");
+        var imgH = path.attr("data-img-height");
         var ratio = imgW / imgH;
         var diff = parseFloat(path.attr("data-diff"));
         diff = diff ? diff : 0;
@@ -37,9 +37,9 @@ function backgroundResize(){
             imgH = imgW / ratio;
         }
         //
-        path.data("resized-imgH", imgH);
-        path.data("resized-imgW", imgW);
-        path.css("background-size", imgH + "px " + imgW + "px");
+        path.data("resized-imgH", imgW);
+        path.data("resized-imgW", imgH);
+        path.css("background-size", imgW + "px " + imgH + "px");
     });
 }
 $(window).resize(backgroundResize);
@@ -56,12 +56,12 @@ function parallaxPosition(e){
         var top = path.offset().top;
         var bottom = top + height;
         if(bottomWindow > top && topWindow < bottom){
-            var imgW = path.data("resized-imgH");
-            var imgH = path.data("resized-imgW");
+            var imgW = path.data("resized-imgW");
+            var imgH = path.data("resized-imgH");
             var min = 0;
             var max = - imgH + heightWindow;
-            var overflowH = height < heightWindow ? imgW - height : imgW - heightWindow;
-            top = top - overflowW;
+            var overflowH = height < heightWindow ? imgH - height : imgH - heightWindow;
+            top = top - overflowH;
             bottom = bottom + overflowH;
             var value = min + (max - min) * (currentWindow - top) / (bottom - top);
             var orizontalPosition = path.attr("data-oriz-pos");
