@@ -1,0 +1,19 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+
+  ],
+  "description": "test",
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "hosting",
+  "scripts": {
+    "postdeploy": "test",
+    "pr-predestroy": "test"
+  },
+  "stack": "heroku-18"
+}
