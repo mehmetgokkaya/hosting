@@ -451,7 +451,7 @@ a.profile-name-link.g-profile,a.profile-link {color:#ccc;}
 		#menu ul a{width:auto;background:#000;color:#ddd;}
 		#menu ul li:first-child a:after,#menu ul ul li:first-child a:after {border:0;}
 		#menu-wrap input,#menu-wrap label{display:inline-block;position:absolute;left:0;top:0;}
-		#menu-wrap input:after,#menu-wrap label:after {content:"\f0c9";font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#fff;display:inline-block;position:absolute;left:15px;}
+		#menu-wrap input:after,#menu-wrap label:after {content:"\f0c9 Menu";font-family:FontAwesome;font-style:normal;font-weight:normal;text-decoration:none;font-size:30px;color:#fff;display:inline-block;position:absolute;left: 5px;width: 110px;}
 		#menu-wrap input{z-index:4}
 		#menu-wrap input:checked + label{color:#fff;font-weight:700}
 		#menu-wrap input:checked ~ ul{display:block}
